@@ -10,8 +10,8 @@ import { ConcreteHandler2 } from './../concrete-handler2';
 })
 export class BaseChainOfResponsibilityComponent {
 
-    private handler1 = new ConcreteHandler1();
-    private handler2 = new ConcreteHandler2();
+    public handler1 = new ConcreteHandler1();
+    public handler2 = new ConcreteHandler2();
 
     constructor() {
         this.handler1.successor = this.handler2;

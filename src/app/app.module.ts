@@ -29,11 +29,19 @@ import { BaseStateComponent } from './state/base-state/base-state.component';
 import { BaseStrategyComponent } from './strategy/base-strategy/base-strategy.component';
 import { BaseTemplateMethodComponent } from './template-method/base-template-method/base-template-method.component';
 import { BaseVisitorComponent } from './visitor/base-visitor/base-visitor.component';
+import { PrototypeComponent } from './prototype/prototype/prototype.component';
+import { AdapteeComponent } from './adapter/adaptee/adaptee.component';
+import { ConcreteImplementerAComponent } from './bridge/implementer/concrete-implementer-a/concrete-implementer-a.component';
+import { ConcreteImplementerBComponent } from './bridge/implementer/concrete-implementer-b/concrete-implementer-b.component';
+import { AdapterComponent } from './adapter/adapter/adapter.component';
+import { RefinedAbstractionComponent } from './bridge/abstraction/refined-abstraction/refined-abstraction.component';
+import { SingletonComponent } from './singleton/singleton/singleton.component';
 
 @NgModule({
    declarations: [
       AppComponent,
       MainPrototypeComponent,
+      PrototypeComponent,
       BaseSingletonComponent,
       TargetComponent,
       BaseBridgeComponent,
@@ -55,7 +63,13 @@ import { BaseVisitorComponent } from './visitor/base-visitor/base-visitor.compon
       BaseStateComponent,
       BaseStrategyComponent,
       BaseTemplateMethodComponent,
-      BaseVisitorComponent
+      BaseVisitorComponent,
+      AdapteeComponent,
+      ConcreteImplementerAComponent,
+      ConcreteImplementerBComponent,
+      AdapterComponent,
+      RefinedAbstractionComponent,
+      SingletonComponent,
    ],
    imports: [
       BrowserModule,
