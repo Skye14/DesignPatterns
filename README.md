@@ -1,27 +1,49 @@
-# DesignPatterns
+# Design Patterns
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+## Implementation of 23 design patterns using TypeScript language in Angular 8 app.
 
-## Development server
+1. Prototype.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Singleton.
 
-## Code scaffolding
+3. Adapter.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. Bridge.
 
-## Build
+5. Abstract Factory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+6. Builder.
 
-## Running unit tests
+7. Factory method.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+8. Composite.
 
-## Running end-to-end tests
+9. Decorator.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+10. Facade.
 
-## Further help
+11. Flyweight.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+12. Proxy.
+
+13. Chain of Responsibility.
+
+14. Interpreter.
+
+15. Iterator.
+
+16. Mediator.
+
+17. Memento.
+
+18. Observer.
+
+19. State.
+
+20. Strategy.
+
+21. Template method.
+
+22. Visitor.
+
+23. Command.
