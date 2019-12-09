@@ -1,0 +1,36 @@
+<header class="header">
+    <h1 [routerLink]="['/']">Design Patterns</h1>
+</header>
+<div class="container">
+    <div class="main">
+        <nav class="nav-bar">
+            <div class="nav" [routerLink]="['/prototype']"><a routerLinkActive="active">Prototype</a></div>
+            <div class="nav" [routerLink]="['/singleton']"><a routerLinkActive="active">Singleton</a></div>
+            <div class="nav" [routerLink]="['/adapter']"><a routerLinkActive="active">Adapter</a></div>
+            <div class="nav" [routerLink]="['/bridge']"><a routerLinkActive="active">Bridge</a></div>
+            <div class="nav" [routerLink]="['/abstract-factory']"><a routerLinkActive="active">Abstract Factory</a></div>
+            <div class="nav" [routerLink]="['/builder']"><a routerLinkActive="active">Builder</a></div>
+            <div class="nav" [routerLink]="['/factory-method']"><a routerLinkActive="active">Factory method</a></div>
+            <div class="nav" [routerLink]="['/composite']"><a routerLinkActive="active">Composite</a></div>
+            <div class="nav" [routerLink]="['/decorator']"><a routerLinkActive="active">Decorator</a></div>
+            <div class="nav" [routerLink]="['/facade']"><a routerLinkActive="active">Facade</a></div>
+            <div class="nav" [routerLink]="['/flyweight']"><a routerLinkActive="active">Flyweight</a></div>
+            <div class="nav" [routerLink]="['/proxy']"><a routerLinkActive="active">Proxy</a></div>
+            <div class="nav" [routerLink]="['/chain-of-responsibility']"><a routerLinkActive="active">Chain of Responsibility</a></div>
+            <div class="nav" [routerLink]="['/interpreter']"><a routerLinkActive="active">Interpreter</a></div>
+            <div class="nav" [routerLink]="['/iterator']"><a routerLinkActive="active">Iterator</a></div>
+            <div class="nav" [routerLink]="['/mediator']"><a routerLinkActive="active">Mediator</a></div>
+            <div class="nav" [routerLink]="['/memento']"><a routerLinkActive="active">Memento</a></div>
+            <div class="nav" [routerLink]="['/observer']"><a routerLinkActive="active">Observer</a></div>
+            <div class="nav" [routerLink]="['/state']"><a routerLinkActive="active">State</a></div>
+            <div class="nav" [routerLink]="['/strategy']"><a routerLinkActive="active">Strategy</a></div>
+            <div class="nav" [routerLink]="['/template-method']"><a routerLinkActive="active">Template method</a></div>
+            <div class="nav" [routerLink]="['/visitor']"><a routerLinkActive="active">Visitor</a></div>
+        </nav>
+        <div class="base">
+            <div class="card">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

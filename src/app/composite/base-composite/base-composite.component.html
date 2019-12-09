@@ -1,0 +1,26 @@
+<h1 class="title">Pattern Composite</h1>
+<div class="block block-style">
+    <button class="btn" (click)="createRoot()">Create root</button>
+    <p *ngIf="root" class="message">{{ root.name }}</p>
+</div>
+<div class="flex">
+    <div class="block block-style">
+        <button class="btn" (click)="createBranch1()">Create branch 1 in root</button>
+        <p *ngIf="branch1" class="message">{{ branch1.name }}</p>
+    </div>
+    <div class="block block-style">
+        <button class="btn" (click)="createBranch2()">Create branch 2 in root</button>
+        <p *ngIf="branch2" class="message">{{ branch2.name }}</p>
+    </div>
+</div>
+
+<div class="flex">
+    <div class="block block-style">
+        <button class="btn" (click)="createLeaf1()">Create leaf 1 for branch 1</button>
+        <p *ngIf="leaf1" class="message">{{ leaf1.name }}</p>
+    </div>
+    <div class="block block-style">
+        <button class="btn" (click)="createLeaf2()">Create leaf 2 for branch 2</button>
+        <p *ngIf="leaf2" class="message">{{ leaf2.name }}</p>
+    </div>
+</div>

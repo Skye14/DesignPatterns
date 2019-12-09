@@ -1,0 +1,13 @@
+.block {
+    width: 70%;
+    height: 300px;
+    margin: 40px auto;
+}
+
+button {
+    margin: 40px 0px 0px 30px;
+}
+
+p {
+    margin-left: 40px;
+}

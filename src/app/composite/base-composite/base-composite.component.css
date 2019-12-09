@@ -1,0 +1,23 @@
+h1 {
+    margin-bottom: 30px;
+}
+
+.block {
+    width: 50%;
+    height: 130px;
+    margin: 20px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex>.block {
+    width: 40%;
+}
+
+button,
+p {
+    margin: 20px 0px 0px 20px;
+}

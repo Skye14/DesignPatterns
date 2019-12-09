@@ -1,0 +1,19 @@
+<h1 class="title">Pattern Template method</h1>
+<div class="block block-style">
+    <div class="flex">
+        <div>
+            <button class="btn" (click)="createPolandFlag()">Create Poland flag</button>
+            <div *ngIf="polandFlag" class="flag">
+                <div class="part" [ngStyle]="{'background-color': polandFlag.flag.color1}"></div>
+                <div class="part" [ngStyle]="{'background-color': polandFlag.flag.color2}"></div>
+            </div>
+        </div>
+        <div>
+            <button class="btn" (click)="createUkraineFlag()">Create Ukraine flag</button>
+            <div *ngIf="ukraineFlag" class="flag">
+                <div class="part" [ngStyle]="{'background-color': ukraineFlag.flag.color1}"></div>
+                <div class="part" [ngStyle]="{'background-color': ukraineFlag.flag.color2}"></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<h1 class="title">Pattern Iterator</h1>
+<div class="flex">
+    <div class="block block-style" (click)="getIterator()">
+        <button class="btn">Get straight traversal</button>
+        <p *ngFor="let item of iteratorArr" class="message">{{ item }}</p>
+    </div>
+    <div class="block block-style">
+        <button class="btn" (click)="getReverseIterator()">Get reverse traversal</button>
+        <p *ngFor="let item of reverseIteratorArr" class="message">{{ item }}</p>
+    </div>
+</div>

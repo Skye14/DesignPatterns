@@ -1,0 +1,6 @@
+<h1 class="title">Pattern Observer</h1>
+<div class="block block-style">
+    <button class="btn" (click)="sendEmails()">Send by email</button>
+    <p class="message"><b>Notifying clients:</b></p>
+    <p *ngFor="let client of emailsList" class="message">{{ client }}</p>
+</div>

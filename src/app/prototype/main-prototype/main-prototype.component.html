@@ -1,0 +1,36 @@
+<div>
+    <h1 class="title">Pattern Prototype</h1>
+    <div class="block center block-style">
+        <button class="btn" (click)="onGetPrototype()">Create Prototype</button>
+        <div *ngIf="prototype">
+            <p class="message">Prototype сlass name: {{ prototype.className }}</p>
+            <p class="message">Prototype state: {{ prototype.state }}</p>
+        </div>
+    </div>
+
+    <div class="block center block-style">
+        <button class="btn" (click)="onGetHuman()">Create Human</button>
+        <div *ngIf="human">
+            <p class="message">Human сlass name: {{ human.className }}</p>
+            <p class="message">Human state: {{ human.state }}</p>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="block block-style">
+            <button class="btn" (click)="onGetMan()">Create Man</button>
+            <div *ngIf="man">
+                <p class="message">Man сlass name: {{ man.className }}</p>
+                <p class="message">Man state: {{ man.state }}</p>
+            </div>
+        </div>
+
+        <div class="block block-style">
+            <button class="btn" (click)="onGetWoman()">Create Woman</button>
+            <div *ngIf="woman">
+                <p class="message">Woman сlass name: {{ woman.className }}</p>
+                <p class="message">Woman state: {{ woman.state }}</p>
+            </div>
+        </div>
+    </div>
+</div>

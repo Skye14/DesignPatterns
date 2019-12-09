@@ -1,0 +1,10 @@
+<h1 class="title">Pattern Chain of Responsibility</h1>
+<div class="block block-style">
+    <button class="btn" (click)="getResponseFromHandler1()">Get response from handler 1</button>
+    <p *ngIf="handler1" class="message">{{ handler1.rezult }}</p>
+</div>
+
+<div class="block block-style">
+    <button class="btn" (click)="getResponseFromHandler2()">Get response from handler 2</button>
+    <p *ngIf="handler2" class="message">{{ handler2.rezult }}</p>
+</div>

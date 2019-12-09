@@ -1,0 +1,15 @@
+<h1 class="title">Pattern Decorator</h1>
+<div class="block block-style">
+    <button class="btn" (click)="wakeUpCarlson()">Wake up Carlson</button>
+    <p *ngIf="carlson" class="message">{{ carlson.getMessage() }}</p>
+</div>
+
+<div class="block block-style">
+    <button class="btn" (click)="putOnJumpsuit()">Put on jumpsuit</button>
+    <p *ngIf="jumpsuit" class="message">{{ jumpsuit.getMessage() }}</p>
+</div>
+
+<div class="block block-style">
+    <button class="btn" (click)="putOnPropeller()">Put on propeller</button>
+    <p *ngIf="propeller" class="message">{{ propeller.getMessage() }}</p>
+</div>

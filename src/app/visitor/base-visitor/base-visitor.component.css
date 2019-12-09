@@ -1,0 +1,14 @@
+.top {
+    padding-top: 20px;
+}
+
+.block {
+    width: 65%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+button,
+p {
+    margin: 20px 0px 0px 20px;
+}

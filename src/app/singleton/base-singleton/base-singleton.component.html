@@ -1,0 +1,15 @@
+<div>
+    <h1 class="title"> Pattern Singleton</h1>
+    <div class="block block-style">
+        <button class="btn" (click)="onGetSingletonObj1()">Create Singleton Object1</button>
+        <p class="message" *ngIf="object1">{{ object1.message }}</p>
+    </div>
+    <div class="block block-style">
+        <button class="btn" (click)="onGetSingletonObj2()">Create Singleton Object2</button>
+        <p class="message" *ngIf="object2">{{ object2.message }}</p>
+    </div>
+    <div class="block block-style">
+        <button class="btn" (click)="getRezult()">are objects equal?</button>
+        <p class="message">{{ message }}</p>
+    </div>
+</div>

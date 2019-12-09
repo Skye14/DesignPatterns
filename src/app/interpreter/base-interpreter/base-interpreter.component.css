@@ -1,0 +1,14 @@
+.block {
+    width: 70%;
+    height: 220px;
+    margin: 30px auto;
+}
+
+.block :first-child {
+    padding-top: 10px;
+}
+
+button,
+p {
+    margin: 20px 0px 0px 30px;
+}

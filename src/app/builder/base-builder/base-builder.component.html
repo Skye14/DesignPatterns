@@ -1,0 +1,7 @@
+<h1 class="title">Pattern Builder</h1>
+<div class="block block-style">
+    <button class="btn" (click)="onBuildHouse()">Build house</button>
+    <div>
+        <p class="message" *ngFor="let part of partsOfHouse; let i = index">{{ i }} {{ part }}</p>
+    </div>
+</div>

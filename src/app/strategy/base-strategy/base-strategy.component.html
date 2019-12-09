@@ -1,0 +1,23 @@
+<h1 class="title">Pattern Strategy</h1>
+<div class="block block-style">
+    <p class="input-block message">
+        <label>Enter numbers in a scatter: </label>
+        <input [(ngModel)]="value" maxlength="17">
+    </p>
+    <p class="message">Array: {{ value }}</p>
+    <div class="flex">
+        <div class="style">
+            <button class="btn" (click)="getBubbleSort()">Bubble sort</button>
+            <p class="message">{{ bubbleSortArray }}</p>
+        </div>
+        <div class="style">
+            <button class="btn" (click)="getSelectionSort()">Selection sort</button>
+            <p class="message">{{ selectionSortArray }}</p>
+        </div>
+        <div class="style">
+            <button class="btn" (click)="getInsertionSort()">Insertion sort</button>
+            <p class="message">{{ insertionSortArray }}</p>
+        </div>
+    </div>
+
+</div>

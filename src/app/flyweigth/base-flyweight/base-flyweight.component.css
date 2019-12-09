@@ -1,0 +1,19 @@
+.block {
+    width: 50%;
+    height: 140px;
+    margin: 30px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex>div {
+    width: 40%;
+}
+
+button,
+p {
+    margin: 20px 0px 0px 20px;
+}
