@@ -35,7 +35,7 @@ import { ConcreteImplementerAComponent } from './bridge/implementer/concrete-imp
 import { ConcreteImplementerBComponent } from './bridge/implementer/concrete-implementer-b/concrete-implementer-b.component';
 import { AdapterComponent } from './adapter/adapter/adapter.component';
 import { RefinedAbstractionComponent } from './bridge/abstraction/refined-abstraction/refined-abstraction.component';
-import { SingletonComponent } from './singleton/singleton/singleton.component';
+import { BaseCommandComponent } from './command/base-command/base-command.component';
 
 @NgModule({
    declarations: [
@@ -69,7 +69,7 @@ import { SingletonComponent } from './singleton/singleton/singleton.component';
       ConcreteImplementerBComponent,
       AdapterComponent,
       RefinedAbstractionComponent,
-      SingletonComponent,
+      BaseCommandComponent
    ],
    imports: [
       BrowserModule,

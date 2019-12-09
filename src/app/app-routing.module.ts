@@ -26,6 +26,7 @@ import { BaseStateComponent } from './state/base-state/base-state.component';
 import { BaseStrategyComponent } from './strategy/base-strategy/base-strategy.component';
 import { BaseTemplateMethodComponent } from './template-method/base-template-method/base-template-method.component';
 import { BaseVisitorComponent } from './visitor/base-visitor/base-visitor.component';
+import { BaseCommandComponent } from './command/base-command/base-command.component';
 
 
 const routes: Routes = [
@@ -52,6 +53,7 @@ const routes: Routes = [
     { path: 'strategy', component: BaseStrategyComponent },
     { path: 'template-method', component: BaseTemplateMethodComponent },
     { path: 'visitor', component: BaseVisitorComponent },
+    { path: 'command', component: BaseCommandComponent },
 
 ];
 

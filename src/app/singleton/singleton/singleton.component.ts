@@ -1,10 +1,3 @@
-import { Component } from '@angular/core';
-
-@Component({
-    selector: 'app-singleton',
-    templateUrl: './singleton.component.html',
-    styleUrls: ['./singleton.component.css']
-})
 export class SingletonComponent {
     static uniqueInstance: SingletonComponent;
     private MESSAGE = '';
